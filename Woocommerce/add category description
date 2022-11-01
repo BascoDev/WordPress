@@ -1,0 +1,6 @@
+//Add product category description to collection page
+
+//add this code into the catefory.php or archive.php or the theme shop template file (suggest copy the file into child-theme)
+<?php 
+the_archive_description( '<div class="taxonomy-description">', '</div>' ); 
+?>
